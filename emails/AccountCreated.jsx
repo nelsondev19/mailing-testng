@@ -62,27 +62,23 @@ const AccountCreated = () => (
           >
             Recuerda seguirnos en las redes sociales.
           </MjmlText>
-
-          <MjmlImage
-            cssClass="hero"
-            padding="0 0 40px"
-            align="center"
-            height="40px"
-            width="40px"
-            alt="Pie & AI Logo"
-            src="https://i.ibb.co/0hFCHQL/github-icon.png"
-          />
-          <MjmlSpacer height="24px" />
           <MjmlText
-            padding="0"
+            padding="24px 0 0"
             fontSize={textBase}
             lineHeight={leadingRelaxed}
             cssClass="paragraph"
+            align="center"
           >
-            Enjoy!
-            <br />
-            The BookBook Team
+              <a href="https://www.mailing.run" target="_blank" rel="noreferrer">
+            Twitter
+          </a> |   <a href="https://www.mailing.run" target="_blank" rel="noreferrer">
+            GitHub
+          </a> |  <a href="https://www.mailing.run" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          
           </MjmlText>
+          <MjmlSpacer height="24px" />
         </MjmlColumn>
       </MjmlSection>
       <Footer />
