@@ -7,14 +7,12 @@ export default function Footer() {
       <MjmlColumn>
         <MjmlText
           cssClass="footer"
-          padding="24px 24px 48px"
           fontSize={textSm}
           color={grayDark}
+          align="center"
         >
-          © {new Date().getFullYear()} Pie & AI: San Salvador&nbsp;&nbsp;·&nbsp;&nbsp;
-          <a href="https://www.mailing.run" target="_blank" rel="noreferrer">
-            Unsubscribe
-          </a>
+          © {new Date().getFullYear()} Pie & AI: San
+          Salvador
         </MjmlText>
       </MjmlColumn>
     </MjmlSection>

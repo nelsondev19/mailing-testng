@@ -7,7 +7,6 @@ import {
   MjmlColumn,
   MjmlText,
   MjmlImage,
-  MjmlSpacer,
 } from "mjml-react";
 import {
   leadingTight,
@@ -15,8 +14,8 @@ import {
   textBase,
   textLg,
 } from "./components/theme";
-  
-const AccountCreated = () => (
+
+const SubscribedEvent = () => (
   <Mjml>
     <Head />
     <MjmlBody width={600}>
@@ -26,8 +25,8 @@ const AccountCreated = () => (
             cssClass="hero"
             padding="0 0 40px"
             align="center"
-            height="200px"
-            width="200px"
+            height="100px"
+            width="100px"
             alt="Pie & AI Logo"
             src="https://i.ibb.co/tLqpPFK/pieai.png"
           />
@@ -50,35 +49,49 @@ const AccountCreated = () => (
             fontSize={textBase}
             lineHeight={leadingRelaxed}
             cssClass="paragraph"
+            align="center"
           >
-            Gracias por confirmar tu asistencia esperamos que llegues con ganas de aprender y hacer networking con la comunidad.
-          </MjmlText>
-          
-          <MjmlText
-            padding="24px 0 0"
-            fontSize={textBase}
-            lineHeight={leadingRelaxed}
-            cssClass="paragraph"
-          >
-            Recuerda seguirnos en las redes sociales.
+            Gracias por confirmar tu asistencia esperamos que llegues con ganas
+            de aprender y hacer networking con la comunidad.
           </MjmlText>
           <MjmlText
-            padding="24px 0 0"
             fontSize={textBase}
             lineHeight={leadingRelaxed}
             cssClass="paragraph"
             align="center"
           >
-              <a href="https://www.mailing.run" target="_blank" rel="noreferrer">
-            Twitter
-          </a> |   <a href="https://www.mailing.run" target="_blank" rel="noreferrer">
-            GitHub
-          </a> |  <a href="https://www.mailing.run" target="_blank" rel="noreferrer">
-            LinkedIn
-          </a>
-          
+            <a
+              href="https://twitter.com/@pieaisv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Twitter
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://github.com/pieaisv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://www.linkedin.com/company/pieaisv/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>{" "}
+            |{" "}
+            <a
+              href="https://youtube.com/@pieaisv"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Youtube
+            </a>
           </MjmlText>
-          <MjmlSpacer height="24px" />
         </MjmlColumn>
       </MjmlSection>
       <Footer />
@@ -86,4 +99,4 @@ const AccountCreated = () => (
   </Mjml>
 );
 
-export default AccountCreated;
+export default SubscribedEvent;
